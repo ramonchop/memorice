@@ -38,7 +38,7 @@ class _MemoryCard extends StatelessWidget {
       },
       child: Container(
         height: 70,
-        width: 70,
+        width: 0.2.sw,
         decoration: BoxDecoration(
           color: memorice.currentColor(),
           image: memorice.showImage()

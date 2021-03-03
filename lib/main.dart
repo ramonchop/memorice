@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
           designSize: Size(380, 760), allowFontScaling: true);
       return MaterialApp(
         title: 'Memorice',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
